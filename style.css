@@ -1,11 +1,23 @@
-input[reuired]{
-  border: 2px slid red;
+input[required]{
+  border: 2px solid red;
 }
-
-input type = "password"{
-  background-color: light gray;
+input[type = "password"]{
+  background-color: lightgray;
 }
-
-
+a[href^ = "https"]{
+  color:green;
+}
+a[href $ = ".pdf"]{
+  color:pink;
+}
+a[href* ="exemplo"]{
+ font-weight: bold;
+}
+div[classe~="ativo"]{
+  background-color:lightblue;
+}
+p[long |="pt"]{
+  color:green;
+}
   
   
